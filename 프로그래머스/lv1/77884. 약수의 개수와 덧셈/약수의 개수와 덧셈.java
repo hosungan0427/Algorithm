@@ -6,7 +6,6 @@ class Solution {
             for(int j=1; j<=i/2; j++){
                 if(i%j==0){
                     cnt++;
-                    System.out.println(cnt);
                 }
             }
             if(cnt%2==0){
@@ -14,7 +13,6 @@ class Solution {
             }else {
                 answer -= i;
             }
-            System.out.print(answer);
         }
         return answer;
     }
